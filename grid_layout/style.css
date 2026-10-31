@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%; 
+    height: 100%;
+   
+}
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+main{
+    height:100%;
+    width: 100%;
+    background-color:#D3DDE8 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 4fr;
+    grid-template-areas: "header header header" "herodiv herodiv herodiv" "bottom-left bottom-center bottom-right";
+    gap:10px;
+    padding: 10px;
+}
+header{
+    grid-area:header;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.herodiv,
+.bottom-left,
+.bottom-center,
+.bottom-right {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* box has the same shape as the image, so full image fits exactly */
+    border-radius: 10px;
+    overflow: hidden;
+}
+.herodiv {
+    grid-area: herodiv;
+    background-image: url(./image.png);
+    background-color: #0f5a48;
+   
+}
+.bottom-left {
+    grid-area: bottom-left;
+    background-image: url(./sandal-1.jpg);
+    background-color: #5fb4d8;
+    aspect-ratio: 1 / 1;
+}
+.bottom-center {
+    grid-area: bottom-center;
+    background-image: url(./cycle-1.jpg);
+    background-color: #1b1c24;
+    background-size: contain;
+    aspect-ratio: 1 / 1;
+}
+.bottom-right {
+    grid-area: bottom-right;
+    background-image: url(./table-1.jpg);
+    background-color: #c3cacd;
+    aspect-ratio: 1 / 1;
+}

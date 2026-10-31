@@ -1,0 +1,402 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #341100;
+    padding: 0 30px;
+}
+
+#section-1 {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    /* padding:15px 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header i {
+    font-size: 28px;
+
+}
+
+.header h1 {
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.ri-home-9-fill {
+    color: #FAFAFA;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    justify-content: center;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+    color: #FAFAFA
+}
+
+.btn {
+    display: flex;
+    gap: 10px
+}
+
+.btn button {
+    padding: 15px 25px;
+    border: none;
+
+    border-radius: 20px;
+
+}
+
+.btn-1 {
+    background-color: black;
+    color: #FAFAFA;
+}
+
+.hero-div {
+    height: calc(100% - 60px);
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+    display: flex;
+    overflow: hidden;
+    padding: 10px 30px;
+}
+
+.hero-div .div-left {
+    width: 50%;
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+.div-left .rating {
+    padding: 15px 30px;
+    display: flex;
+    width: fit-content;
+    border-radius: 50px;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+
+
+
+}
+
+.rating-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.rating-text span {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+.rating i {
+    font-size: 25px;
+}
+
+.div-left h1 {
+    font-size: 80px;
+    line-height: 90px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.div-left p {
+    font-size: 15px;
+    opacity: 0.8;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+#btn-3 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.div-left .btn button {
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-3 button:nth-child(1) {
+    background-color: #dadada;
+}
+
+.div-left>h3 {
+    margin-top: 25px;
+}
+
+#btn-3 .arrow-left {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.div-left .logos img {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+}
+
+.hero-div .div-right {
+    width: 50%;
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+.div-right .imagediv {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.div-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.f-1 {
+    display: flex;
+}
+
+#second {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mark-1 {
+    width: 100%;
+    height: 50%;
+
+}
+
+.card {
+    width: 25%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 5px 10px;
+}
+
+.card .mark-image {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    padding: 5px 20px;
+}
+
+.mark-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.card .mark-text {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+
+}
+
+.mark-text h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.mark-text p {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.6;
+
+}
+
+.mark-image i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-img {
+    background-image: url("./bhk1.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#sec-img {
+    background-image: url("./bhk2.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#fourth-img {
+    background-image: url("./bhk3.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.mark-text-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.mark-text-2 i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.third {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.Pack h5 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #888;
+    opacity: 0.7;
+}
+
+.head-1 h1 {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.fourth {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.type-1 {
+    width: 100%;
+    height: 50%;
+
+}
+
+.fourth {
+    width: 100%;
+    height: 150px;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type-1 {
+    width: 100%;
+    height: 70px;
+}
+
+.words {
+    width: 100%;
+    height: 70px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.words div {
+    width: 25%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.words .t-1 {
+    background-color: white;
+}
+
+.words h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+}
